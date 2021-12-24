@@ -1,6 +1,10 @@
 import 'dart:io';
 
-main() {
+void main() {
+  runApp();
+}
+
+runApp() {
   var idade = stdin.readLineSync();
   entrarNaBoate(idade);
 }
