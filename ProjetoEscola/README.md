@@ -50,7 +50,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Esse projeto foi desenvolvido utilizando a seguinte tecnologia, e pacotes:
 
-- [Java](https://www.java.com/pt-BR/)
+- [Dart](https://dart.dev/)
 
 <a id="how-to-use"></a>
 
@@ -58,9 +58,8 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia, e pacotes:
 
 - Faça um fork do projeto
 - Abra o terminal do Visual Studio Code
-- Digite (troque cerqueirav pelo nome do seu usuário): git clone https://github.com/cerqueirav/DartStudy/tree/main/ProjetoEscola
-- Nome da pasta: GeniusGame
-
+- Digite (troque cerqueirav pelo nome do seu usuário): git clone https://github.com/cerqueirav/DartStudy/
+- Nome da pasta: ProjetoEscola
 
 <a id="how-to-contribute"></a>
 
