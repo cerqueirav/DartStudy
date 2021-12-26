@@ -13,19 +13,18 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 <h3> Expecificação 🟠</h3>
      <p>
 
-      Desenvolver um programa em Java que controle o funcionamento de uma Escola. Existem diversas funcionalidades em uma Escola, mas você deve focar no que é pedido. 
-Caso tenha interesse você pode evoluir sua solução para adicionar mais funcionalidades.
+      Desenvolver um programa em Java que controle o funcionamento de uma Escola. Existem diversas funcionalidades em uma Escola, mas você deve focar no que é pedido. Caso tenha interesse você pode evoluir sua solução para adicionar mais funcionalidades.
 
     </p>
  
-	<p> Cadastro </p>
+	<h4> Cadastro 🟠</h4>
 
         <li> I. Cadastro de Alunos (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟢
         <li> II. Cadastro de Professores (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟢
         <li> III. Cadastro de Disciplinas (Nome, Código, Semestre, Professor). 🟢
         <li> IV. Inserir/Excluir aluno de uma disciplina. 🟢
 
-	<p> Relatórios </p>	
+	<h4> Relatórios </h4>	
 
         <li> V. Listar Alunos. 🟢
         <li> VI. Listar Professores. 🟢
@@ -43,7 +42,7 @@ Caso tenha interesse você pode evoluir sua solução para adicionar mais funcio
 	<li> XVI. Lista de alunos matriculados em menos de 3 disciplinas. 🟢
 	<li> XVII. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas. 🟢
 
-	<p> Observação: </p>
+	<h4> Observação: </h4>
 
 	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟢
 	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🟢
