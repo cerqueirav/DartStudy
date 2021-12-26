@@ -58,7 +58,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia, e pacotes:
 
 - Faça um fork do projeto
 - Abra o terminal do Visual Studio Code
-- Digite (troque cerqueirav pelo nome do seu usuário): git clone https://github.com/cerqueirav/DartStudy/ProjetoEscola
+- Digite (troque cerqueirav pelo nome do seu usuário): git clone https://github.com/cerqueirav/DartStudy/tree/main/ProjetoEscola
 - Nome da pasta: GeniusGame
 
 
