@@ -11,11 +11,8 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 <h3> Expecificação 🟠</h3>
-     <p>
 
       Desenvolver um programa em Java que controle o funcionamento de uma Escola. Existem diversas funcionalidades em uma Escola, mas você deve focar no que é pedido. Caso tenha interesse você pode evoluir sua solução para adicionar mais funcionalidades.
-
-    </p>
  
 	<h4> Cadastro 🟠</h4>
 
@@ -36,16 +33,16 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
         <li> XII. Listar Professores por sexo (Masculino/Feminino). 🟢
         <li> XIII. Listar Professores ordenados por Nome. 🟢
         <li> XIV. Listar Professores ordenados por data de nascimento. 🟢
-	<li> XV. Aniversariantes do mês. 🟢
-	<li< XV. Lista de pessoas (professor/aluno) a partir de uma string de busca. O usuário informa no 
-	mínimo três letras e deve ser listado todas as pessoas que contem essas três letras no nome. 🟢
-	<li> XVI. Lista de alunos matriculados em menos de 3 disciplinas. 🟢
-	<li> XVII. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas. 🟢
+		<li> XV. Aniversariantes do mês. 🟢
+		<li> XV. Lista de pessoas (professor/aluno) a partir de uma string de busca. O usuário informa no 
+		mínimo três letras e deve ser listado todas as pessoas que contem essas três letras no nome. 🟢
+		<li> XVI. Lista de alunos matriculados em menos de 3 disciplinas. 🟢
+		<li> XVII. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas. 🟢
 
 	<h4> Observação: </h4>
 
-	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟢
-	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🟢
+		<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟢
+		<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🟢
 
 
 ##### Legenda
