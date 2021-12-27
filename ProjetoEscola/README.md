@@ -13,13 +13,13 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 <h3> Especificação 🟠</h3>
      <p>  Desenvolver um programa em Dart que controle o funcionamento de uma Escola. Existem diversas funcionalidades em uma Escola, mas você deve focar no que é pedido. Caso tenha interesse você pode evoluir sua solução para adicionar mais funcionalidades. 
 	<h3> Cadastro 🟠</h3>
-       	<li> I. Cadastro de Alunos (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟠
-        <li> II. Cadastro de Professores (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🔴
+       	<li> I. Cadastro de Alunos (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟢
+        <li> II. Cadastro de Professores (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟢
         <li> III. Cadastro de Disciplinas (Nome, Código, Semestre, Professor). 🔴
         <li> IV. Inserir/Excluir aluno de uma disciplina. 🔴
 	<h3> Relatórios 🟠</h3>
-	<li> V. Listar Alunos. 🔴
-        <li> VI. Listar Professores. 🔴
+	<li> V. Listar Alunos. 🟢
+        <li> VI. Listar Professores. 🟢
         <li> VII. Listar Disciplinas (dados da disciplina sem os alunos). 🔴
         <li> VIII. Listar uma disciplina (dados da disciplina e os alunos matriculados). 🔴
         <li> IX. Listar Alunos por sexo (Masculino/Feminino). 🔴
@@ -35,7 +35,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 		
 
 <h3> Observação 🔴</h3>
-  	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🔴
+  	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟠
 	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🔴
 
 
