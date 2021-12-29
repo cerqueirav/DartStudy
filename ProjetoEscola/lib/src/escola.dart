@@ -41,6 +41,55 @@ class Escola {
     pularLinha();
   }
 
+  void listarAlunoPorSexo(String sexo) {
+    int indice = 0;
+    while (indice < _discentes.length) {
+      if (_discentes[indice].sexo == sexo) {
+        _discentes[indice].listar();
+      }
+      indice++;
+    }
+  }
+
+  void listarAlunosPorOrdem(String parametro) {
+    List<Aluno> alunos = (ordenarAlunos(parametro));
+
+    for (int i = 0; i < alunos.length; i++) {
+      alunos[i].listar();
+    }
+  }
+
+  // Metodo responsável por ordenar, precisa refatorar
+  List<Aluno> ordenarAlunos(String parametro) {
+    List<String> alunos = [];
+    List<Aluno> copia = [];
+
+    for (int i = 0; i < _discentes.length; i++) {
+      if (parametro == "nome")
+        alunos.add(_discentes[i].nome);
+      else if (parametro == "dtNasc")
+        alunos.add(_discentes[i].dtNasc);
+      else {
+        print("parametro invalido!");
+      }
+    }
+
+    alunos.sort();
+    // Implementar ordenação de datas
+
+    for (int i = 0; i < alunos.length; i++) {
+      for (int j = 0; j < _discentes.length; j++) {
+        if (parametro == "nome") {
+          if (_discentes[j].nome == alunos[i]) copia.add(_discentes[j]);
+        } else if (parametro == "dtNasc") {
+          if (_discentes[j].dtNasc == alunos[i]) copia.add(_discentes[j]);
+        }
+      }
+    }
+
+    return copia;
+  }
+
   // Metodos da entidade "Professor"
   void cadastrarProfessor(Professor professor) {
     _docentes.add(professor);
@@ -68,6 +117,54 @@ class Escola {
     }
     //Formatacao da impressão
     pularLinha();
+  }
+
+  void listarProfessorPorSexo(String sexo) {
+    int indice = 0;
+    while (indice < _docentes.length) {
+      if (_docentes[indice].sexo == sexo) {
+        _docentes[indice].listar();
+      }
+      indice++;
+    }
+  }
+
+  void listarProfessoresPorOrdem(String parametro) {
+    List<Professor> professores = (ordenarProfessores(parametro));
+
+    for (int i = 0; i < professores.length; i++) {
+      professores[i].listar();
+    }
+  }
+
+  List<Professor> ordenarProfessores(String parametro) {
+    List<String> docentes = [];
+    List<Professor> copia = [];
+
+    for (int i = 0; i < _docentes.length; i++) {
+      if (parametro == "nome")
+        docentes.add(_docentes[i].nome);
+      else if (parametro == "dtNasc")
+        docentes.add(_docentes[i].dtNasc);
+      else {
+        print("parametro invalido!");
+      }
+    }
+
+    docentes.sort();
+    // Implementar ordenação de datas
+
+    for (int i = 0; i < docentes.length; i++) {
+      for (int j = 0; j < docentes.length; j++) {
+        if (parametro == "nome") {
+          if (_docentes[j].nome == docentes[i]) copia.add(_docentes[j]);
+        } else if (parametro == "dtNasc") {
+          if (_docentes[j].dtNasc == docentes[i]) copia.add(_docentes[j]);
+        }
+      }
+    }
+
+    return copia;
   }
 
   // Metodos da entidade "Disciplina"

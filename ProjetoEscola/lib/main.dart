@@ -7,16 +7,31 @@ main(List<String> arguments) {
   Escola escola = Escola("IFBA");
 
   // Testes da Classe Aluno
-  Aluno a1 = Aluno("2017554462", "Victor C.", "M", "30/09/2004", "1593578524");
+  Aluno a1 =
+      Aluno("2017554462", "Marcos Leite", "M", "30/09/2014", "1593578524");
 
   escola.cadastrarAluno(a1);
 
+  Aluno a2 =
+      Aluno("20116956", "Izabel Martins", "F", "22/04/2002", "44421111224");
+
+  escola.cadastrarAluno(a2);
+
+  Aluno a3 =
+      Aluno("20116956", "Jorge Valente L.", "F", "31/04/2024", "11245554");
+
+  escola.cadastrarAluno(a3);
+
   //escola.removerAluno(a1);
 
-  escola.listarAlunos();
+  //escola.listarAlunosPorOrdem("dtNasc");
+
+  escola.listarAlunoPorSexo("F");
+
+  /*
 
   // Testes da Classe Professor
-  Professor p1 =
+cls  Professor p1 =
       Professor("12487743", "Teacher.", "M", "24/09/78", "123467890");
 
   escola.cadastrarProfessor(p1);
@@ -33,4 +48,6 @@ main(List<String> arguments) {
   //escola.removerDisciplina(d1);
 
   escola.listarDisciplinas();
+
+  */
 }

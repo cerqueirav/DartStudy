@@ -22,12 +22,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
         <li> VI. Listar Professores. 🟢
         <li> VII. Listar Disciplinas (dados da disciplina sem os alunos). 🟢
         <li> VIII. Listar uma disciplina (dados da disciplina e os alunos matriculados). 🔴
-        <li> IX. Listar Alunos por sexo (Masculino/Feminino). 🔴
-        <li> X. Listar Alunos ordenados por Nome. 🔴
-        <li> XI. Listar Alunos ordenados por data de nascimento. 🔴
-        <li> XII. Listar Professores por sexo (Masculino/Feminino). 🔴
-        <li> XIII. Listar Professores ordenados por Nome. 🔴
-        <li> XIV. Listar Professores ordenados por data de nascimento. 🔴
+        <li> IX. Listar Alunos por sexo (Masculino/Feminino). 🟢
+        <li> X. Listar Alunos ordenados por Nome. 🟢
+        <li> XI. Listar Alunos ordenados por data de nascimento. 🟠
+        <li> XII. Listar Professores por sexo (Masculino/Feminino). 🟢
+        <li> XIII. Listar Professores ordenados por Nome. 🟢
+        <li> XIV. Listar Professores ordenados por data de nascimento. 🟠
 	<li> XV. Aniversariantes do mês. 🔴
 	<li> XV. Lista de pessoas (professor/aluno) a partir de uma string de busca. O usuário informa no mínimo três letras e deve ser listado todas as pessoas que contem essas três letras no nome. 🔴
 	<li> XVI. Lista de alunos matriculados em menos de 3 disciplinas. 🔴
