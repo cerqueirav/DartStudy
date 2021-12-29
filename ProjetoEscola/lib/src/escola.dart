@@ -195,4 +195,19 @@ class Escola {
     //Formatacao da impressão
     pularLinha();
   }
+
+  void aniversariantes() {
+    DateTime now = new DateTime.now();
+    // Listagem de alunos aniversariantes
+    for (int i = 0; i < _discentes.length; i++) {
+      // TO DO -> criar funcao para separar a data do aluno
+      if (_discentes[i].dtNasc == (now.month)) _discentes[i].listar();
+    }
+
+    // Listagem de professores aniversariantes
+    for (int i = 0; i < _docentes.length; i++) {
+      // TO DO -> criar funcao para separar a data do professor
+      if (_docentes[i].dtNasc == (now.month)) _docentes[i].listar();
+    }
+  }
 }

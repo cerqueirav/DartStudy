@@ -26,7 +26,7 @@ main(List<String> arguments) {
 
   //escola.listarAlunosPorOrdem("dtNasc");
 
-  escola.listarAlunoPorSexo("F");
+  //escola.listarAlunoPorSexo("F");
 
   /*
 
