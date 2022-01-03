@@ -17,12 +17,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
         <li> II. Cadastro de Professores (Matrícula, Nome, Sexo, Data Nascimento, CPF).🟢
         <li> III. Cadastro de Disciplinas (Nome, Código, Semestre, Professor).🟢
 	<li> IV. Cadastro de Curso (Nome, Matriz curricular (conjunto de disciplinas), Alunos). 🟢 
-	<li> V. Inserir/Excluir aluno de disciplinas. 🟠
+	<li> V. Inserir/Excluir aluno de disciplinas. 🟢
 	<h3> Relatórios 🟠</h3>
 	<li> VI. Listar Alunos. 🟢
         <li> VII. Listar Professores. 🟢
         <li> VIII. Listar Disciplinas (dados da disciplina sem os alunos). 🟢
-	<li> IX. Listar Curso (dados do curso sem os alunos). 🟠
+	<li> IX. Listar Curso (dados do curso sem os alunos). 🟢
         <li> X. Listar uma disciplina (dados da disciplina e os alunos matriculados). 🟢
 	<li> XI. Listar um curso (dados do curso, disciplinas, alunos matriculados). 🟢
         <li> XII. Listar Alunos por sexo (Masculino/Feminino). 🟢
@@ -37,14 +37,14 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 	<li> XXI. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas.🔴
 		
 
-<h3> Observação 🔴</h3>
+<h3> Observação 🟠</h3>
   	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟠
 	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🔴
 	<ul>
-                <li> I.   Nome: recebe o nome digitado, e valida se nome tem até 20 caracteres; 🔴
-                <li> II.  Sexo: recebe o sexo digitado, e verifica se um é sexo válido (opções: m e M para masculino; f e F para feminino, o e O para outro). 🔴
-                <li> III. CPF: recebe o cpf digitado, e verifica se um cpf é válido. 🔴
-                <li> IV.  Data de Nacimento: recebe a data digitada, e verifica se a data é válida. 🔴
+                <li> I.   Nome: recebe o nome digitado, e valida se nome tem até 20 caracteres; 🟢
+                <li> II.  Sexo: recebe o sexo digitado, e verifica se um é sexo válido (opções: m e M para masculino; f e F para feminino, o e O para outro). 🟢
+                <li> III. CPF: recebe o cpf digitado, e verifica se um cpf é válido. 🟠
+                <li> IV.  Data de Nacimento: recebe a data digitada, e verifica se a data é válida. 🟠
         </ul>		
 
 
