@@ -33,13 +33,13 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
         <li> XVII. Listar Professores ordenados por data de nascimento. 🟠
 	<li> XVIII. Aniversariantes do mês. 🟠
 	<li> XIX. Lista de pessoas (professor/aluno) a partir de uma string de busca. O usuário informa no mínimo três letras e deve ser listado todas as pessoas que contem essas três letras no nome. 🔴
-	<li> XX. Lista de alunos matriculados em menos de 3 disciplinas. 🔴
-	<li> XXI. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas.🔴
+	<li> XX. Lista de alunos matriculados em menos de 3 disciplinas. 🟠
+	<li> XXI. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas.🟠
 		
 
 <h3> Observação 🟠</h3>
   	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟠
-	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🔴
+	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🟠
 	<ul>
                 <li> I.   Nome: recebe o nome digitado, e valida se nome tem até 20 caracteres; 🟢
                 <li> II.  Sexo: recebe o sexo digitado, e verifica se um é sexo válido (opções: m e M para masculino; f e F para feminino, o e O para outro). 🟢

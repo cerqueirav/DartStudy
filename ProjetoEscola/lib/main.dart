@@ -36,7 +36,7 @@ main(List<String> arguments) {
   ads.inserirDocente(p1);
 
   // Removendo o professor "p1" do curso ADS
-  //ads.removerProfessor(p1);
+  //ads.excluirDocente(p1);
 
   String professor = "Teste";
 
@@ -51,5 +51,5 @@ main(List<String> arguments) {
   ads.inserirDisciplina(d1);
 
   // Removendo a disciplina "d1" do curso ADS
-  //ads.removerDisciplina(d1);
+  //ads.excluirDisciplina(d1);
 }
