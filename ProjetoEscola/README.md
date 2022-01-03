@@ -37,6 +37,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 <h3> Observação 🔴</h3>
   	<li> Por Cadastro entenda Incluir, excluir, atualizar. 🟠
 	<li> Valide todos os campos necessários (ex. Data nascimento, CPF). 🔴
+	<ul>
+                <li> I.   Nome: recebe o nome digitado, e valida se nome tem até 20 caracteres; 🔴
+                <li> II.  Sexo: recebe o sexo digitado, e verifica se um é sexo válido (opções: m e M para masculino; f e F para feminino, o e O para outro). 🔴
+                <li> III. CPF: recebe o cpf digitado, e verifica se um cpf é válido. 🔴
+                <li> IV.  Data de Nacimento: recebe a data digitada, e verifica se a data é válida. 🔴
+        </ul>		
 
 
 ##### Legenda

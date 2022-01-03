@@ -24,9 +24,9 @@ main(List<String> arguments) {
 
   //escola.removerAluno(a1);
 
-  //escola.listarAlunosPorOrdem("dtNasc");
+  escola.listarAlunosPorOrdem("dtNasc");
 
-  //escola.listarAlunoPorSexo("F");
+  escola.listarAlunoPorSexo("F");
 
   /*
 
