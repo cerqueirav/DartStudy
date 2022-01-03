@@ -16,12 +16,15 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
        	<li> I. Cadastro de Alunos (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟢
         <li> II. Cadastro de Professores (Matrícula, Nome, Sexo, Data Nascimento, CPF).🟢
         <li> III. Cadastro de Disciplinas (Nome, Código, Semestre, Professor).🟢
-        <li> IV. Inserir/Excluir aluno de uma disciplina. 🟠
+	<li< IV. Cadastro de Curso (Nome, Matriz curricular (conjunto de disciplinas), Alunos). 🟠 
+	<li> V. Inserir/Excluir aluno de curso e disciplinas. 🟠
 	<h3> Relatórios 🟠</h3>
 	<li> V. Listar Alunos. 🟢
         <li> VI. Listar Professores. 🟢
         <li> VII. Listar Disciplinas (dados da disciplina sem os alunos). 🟢
+	<li> VII. Listar Curso (dados do curso sem os alunos). 🟠
         <li> VIII. Listar uma disciplina (dados da disciplina e os alunos matriculados). 🔴
+	<li> VIII. Listar um curso (dados do curso, alunos matriculados). 🔴
         <li> IX. Listar Alunos por sexo (Masculino/Feminino). 🟢
         <li> X. Listar Alunos ordenados por Nome. 🟢
         <li> XI. Listar Alunos ordenados por data de nascimento. 🟠
