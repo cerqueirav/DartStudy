@@ -16,7 +16,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
        	<li> I. Cadastro de Alunos (Matrícula, Nome, Sexo, Data Nascimento, CPF). 🟢
         <li> II. Cadastro de Professores (Matrícula, Nome, Sexo, Data Nascimento, CPF).🟢
         <li> III. Cadastro de Disciplinas (Nome, Código, Semestre, Professor).🟢
-	<li< IV. Cadastro de Curso (Nome, Matriz curricular (conjunto de disciplinas), Alunos). 🟠 
+	<li> IV. Cadastro de Curso (Nome, Matriz curricular (conjunto de disciplinas), Alunos). 🟠 
 	<li> V. Inserir/Excluir aluno de curso e disciplinas. 🟠
 	<h3> Relatórios 🟠</h3>
 	<li> VI. Listar Alunos. 🟢
