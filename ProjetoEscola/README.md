@@ -32,7 +32,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
         <li> XVI. Listar Professores ordenados por Nome. 🟢
         <li> XVII. Listar Professores ordenados por data de nascimento. 🟠
 	<li> XVIII. Aniversariantes do mês. 🟠
-	<li> XIX. Lista de pessoas (professor/aluno) a partir de uma string de busca. O usuário informa no mínimo três letras e deve ser listado todas as pessoas que contem essas três letras no nome. 🔴
+	<li> XIX. Lista de pessoas (professor/aluno) a partir de uma string de busca. O usuário informa no mínimo três letras e deve ser listado todas as pessoas que contem essas três letras no nome. 🟠
 	<li> XX. Lista de alunos matriculados em menos de 3 disciplinas. 🟠
 	<li> XXI. Lista de Disciplinas, com nome do professor, que extrapolam 40 vagas.🟠
 		
