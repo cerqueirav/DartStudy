@@ -20,10 +20,14 @@ class HomePageState extends State<HomePage> {
           CustomSwitch(),
         ],
       ),
-      body: Center(
-        child: CustomSwitch(),
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text('Contagem: , $counter'),
+          CustomSwitch(),
+        ]),
       ),
-
       // Botao para adicionar (+)
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),

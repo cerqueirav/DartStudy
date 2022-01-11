@@ -142,36 +142,32 @@ class Curso {
   }
 
   void listarProfessoresPorOrdem(String parametro) {
-    List<Professor> professores = (ordenarProfessores(parametro));
+    List<Professor> professores = (ordenarProfessoresNome(parametro));
 
     for (int i = 0; i < professores.length; i++) {
       professores[i].listar();
     }
   }
 
-  List<Professor> ordenarProfessores(String parametro) {
+  List<Professor> ordenarProfessoresNome(String parametro) {
     List<String> docentes = [];
     List<Professor> copia = [];
 
     for (int i = 0; i < _docentes.length; i++) {
-      if (parametro == "nome")
+      if (parametro == "nome") {
         docentes.add(_docentes[i].nome);
-      else if (parametro == "dtNasc")
-        docentes.add(_docentes[i].dtNasc);
-      else {
-        print("parametro invalido!");
       }
     }
 
     docentes.sort();
-    // Implementar ordenação de datas
+    // Implementação da ordenação de nomes
 
     for (int i = 0; i < docentes.length; i++) {
       for (int j = 0; j < docentes.length; j++) {
         if (parametro == "nome") {
-          if (_docentes[j].nome == docentes[i]) copia.add(_docentes[j]);
-        } else if (parametro == "dtNasc") {
-          if (_docentes[j].dtNasc == docentes[i]) copia.add(_docentes[j]);
+          if (_docentes[j].nome == docentes[i]) {
+            copia.add(_docentes[j]);
+          }
         }
       }
     }
